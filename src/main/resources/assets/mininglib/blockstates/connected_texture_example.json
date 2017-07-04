@@ -1,0 +1,96 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "normal": "MODID:blocks/connected/BLOCK_NAME/normal",
+            "u": "MODID:blocks/connected/BLOCK_NAME/u",
+            "r": "MODID:blocks/connected/BLOCK_NAME/r",
+            "ud": "MODID:blocks/connected/BLOCK_NAME/ud",
+            "ul": "MODID:blocks/connected/BLOCK_NAME/ul",
+            "ur": "MODID:blocks/connected/BLOCK_NAME/ur",
+            "lr": "MODID:blocks/connected/BLOCK_NAME/lr",
+            "udr": "MODID:blocks/connected/BLOCK_NAME/udr",
+            "udl": "MODID:blocks/connected/BLOCK_NAME/udl",
+            "ulr": "MODID:blocks/connected/BLOCK_NAME/ulr",
+            "udlr": "MODID:blocks/connected/BLOCK_NAME/udlr"
+        }
+    },
+    "variants": {
+        "inventory": { "model": "MODID:connected/connected_0" },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_0" },
+
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_1" },
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_1", "x": 180 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_1", "x": 90 },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_1", "x": -90 },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_1", "x": 90, "y": -90 },
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_1", "x": 90, "y": 90 },
+
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_2_angle" },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_2_angle", "y": 180 },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "x": 180 },
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_2_angle", "x": 180, "y": 180 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "y": -90 },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "y": 90 },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "x": 180, "y": -90 },
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "x": 180, "y": 90 },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "x": 90 },
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_2_angle", "x": -90 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_2_angle", "x": 90, "y": -90 },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_2_angle", "x": -90, "y": 90 },
+
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_2" },
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_2", "x": -90, "y": 90  },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_2", "x": -90 },
+
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_3_T1" },
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_3_T1", "y": -90 },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_3_T1", "y": -180 },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_3_T1", "y": 90 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_3_T1", "x": -90 },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_3_T1", "x": -90, "y": 180 },
+
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_3_T2" },
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_3_T2", "x": -90 },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_3_T2", "x": 180 },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_3_T2", "x": 90 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_3_T2", "y": 90 },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_3_T2", "x": 180, "y": 90 },
+
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_3_angle" },
+        "connected_down=false,connected_east=false,connected_north=false,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_3_angle", "y": 90 },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_3_angle", "x": 90 },
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=false,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_3_angle", "x": 180 },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_3_angle", "x": 270 },
+
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_3_angle", "x": 180, "y": -180 },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_3_angle", "x": -90, "y": -180 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_3_angle", "x": 90, "y": -90 },
+
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_cross" },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_4_cross", "x": 90 },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_4_cross", "y": 90 },
+
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_angle" },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "x": 90 },
+        "connected_down=false,connected_east=false,connected_north=true,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "x": -90 },
+        "connected_down=true,connected_east=false,connected_north=false,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "y": -90 },
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=false,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_4_angle", "y": 90 },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_4_angle", "y": 180 },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_4_angle", "x": -90, "y": 180 },
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=true,connected_up=false,connected_west=false": { "model": "mininglib:connected/connected_4_angle", "x": 90, "y": 180 },
+        "connected_down=false,connected_east=true,connected_north=false,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "x": -90, "y": -90 },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "x": -270, "y": -90 },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "x": -90, "y": 90 },
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=false,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_4_angle", "x": -270, "y": -270 },
+
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=true,connected_up=false,connected_west=true": { "model": "mininglib:connected/connected_4_cross" },
+        "connected_down=true,connected_east=true,connected_north=false,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_cross" },
+        "connected_down=true,connected_east=false,connected_north=true,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_cross" },
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=true,connected_up=true,connected_west=false": { "model": "mininglib:connected/connected_4_cross" },
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=false,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_cross" },
+        "connected_down=false,connected_east=true,connected_north=true,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_cross" },
+
+        "connected_down=true,connected_east=true,connected_north=true,connected_south=true,connected_up=true,connected_west=true": { "model": "mininglib:connected/connected_4_cross" }
+    }
+}

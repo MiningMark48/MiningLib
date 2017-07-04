@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "mininglib",
+    "name": "MiningLib",
+    "description": "Library mod for MiningMark48's mods.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "MiningMark48"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
